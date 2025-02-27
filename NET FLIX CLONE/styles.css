@@ -1,0 +1,472 @@
+* {
+  /* # */
+  margin: 0%;
+  padding: 0%;
+}
+body{
+  background-color: black;
+}
+.body {
+  /* display: flex; */
+
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.body img {
+  height: 100%;
+  width: 100%;
+}
+.pannel {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.617);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.heading {
+  /* background-color: yellow; */
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.under-part {
+  /* background-color: green; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: 900;
+  font-size: 25px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box {
+  /* background-color: blue; */
+  margin: 5px;
+  width: 100%;
+  margin: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+p {
+  font-size: 20px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-2 {
+  background-color: red;
+  font-size: 22px;
+  width: 200px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  margin-top: 25px;
+  margin-left: 145px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-2:hover {
+  background-color: rgb(203, 5, 5);
+}
+.btn-2 i {
+  margin-left: 10px;
+  font-weight: 100;
+  font-size: large;
+}
+
+/* HEADER PART */
+
+.navbar {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.153);
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  /* background-color: green; */
+  margin-left: 120px;
+  margin-right: 120px;
+  width: 100%;
+  margin-top: 30px;
+}
+.nav-main {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+#logo {
+  display: flex;
+
+  /* background-color: blue; */
+}
+
+.main-part {
+  display: flex;
+  /* background-color: aqua; */
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+select {
+  height: 40px;
+  width: 150px;
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #00000027;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  align-items: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.btn-tags {
+  background-color: rgba(255, 0, 0, 0.849);
+  height: 35px;
+  width: 100px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-tags:hover {
+  background-color: rgb(203, 5, 5);
+}
+
+/* TRENDING BOX */
+
+.trending {
+  background-color: rgb(0, 0, 0);
+  height: 100%;
+  width: 100%;
+  margin-top: 48%;
+
+  position: absolute;
+  display: flex;
+}
+h3 {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  margin: 30px;
+  position: absolute;
+  /* bottom: 100%; */
+  font-size: 25px;
+  color: white;
+  margin-left: 150px;
+}
+
+.select-btn {
+  display: flex;
+  margin-left: 145px;
+  margin-top: 70px;
+  position: absolute;
+
+  /* background-color: yellow; */
+}
+
+.btn-4 {
+  width: 100px;
+}
+
+/* MOVIE CONTAINER BOX */
+
+.movie-container {
+  /* background-color: red; */
+  margin-top: 0%;
+  width: 100%;
+ 
+  margin-top: 70px;
+  
+  height: auto;
+}
+.movie-box {
+  height: 400px;
+margin-left:130px ;
+  width: 80%;
+  display: flex;
+  border-radius: 10px;
+  /* background-color: yellow; */
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.movie-box1 {
+  height: 240px;
+  /* background-color: green; */
+  width: 200px;
+
+  border-radius: 10px;
+  margin: 10px;
+  transition: all 0.5s;
+}
+.movie-box1:hover {
+  scale: 1.1;
+}
+
+.prew-btn {
+  height: 120px;
+  width: 30px;
+  border-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.141);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.prew-btn:hover {
+  background-color: rgba(128, 128, 128, 0.418);
+}
+.one {
+  background-image: url(Images/movie-1.webp);
+  background-size: cover;
+}
+.two {
+  background-image: url(Images/movie-2.jpg);
+  background-size: cover;
+}
+.three {
+  background-image: url(Images/movie-3.webp);
+  background-size: cover;
+}
+.four {
+  background-image: url(Images/movie-4.webp);
+  background-size: cover;
+}
+.five {
+  background-image: url(Images/movie-5.webp);
+  background-size: cover;
+}
+.six {
+  background-image: url(Images/movie-6.webp);
+  background-size: cover;
+}
+.seven {
+  background-image: url(Images/movie-7.jpg);
+  background-size: cover;
+}
+
+/* FOOTER BOX */
+
+.footer-box {
+  background-color: rgb(0, 0, 0);
+ 
+  color: white;
+}
+.footer-box h2 {
+ margin-left: 150px;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.foot-container {
+  /* background-color: green; */
+  display: flex;
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 10px;
+  justify-content: space-evenly;
+}
+.foot-1 {
+  height: 350px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+  background: linear-gradient(to bottom, #1f2a4b, #2d0737);
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot-1 h2 {
+ margin-top: 10px;
+  /* background-color: #ff00d4; */
+  height: 80px;
+  justify-content: center;
+  align-content: center;
+ 
+  margin: 10px;
+   
+   
+}
+
+.foot-1 p {
+   
+  font-size: large;
+  /* background-color: green; */
+  height: 100px;
+  color: grey;
+}
+
+.foot-1 i {
+  background: linear-gradient(to bottom, #ffea00, #ffb700, #ff3300, #ff00d4);
+  justify-content: center;
+  border-radius: 50%;
+  display: flex;
+  height: 80px;
+  width: 80px;
+ margin-top: 50px;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+  margin-left: 130px;
+ 
+   
+   
+ 
+  
+  
+  filter: drop-shadow(0 0 10px rgba(255, 0, 255, 0.5)); /* Glowing effect */
+}
+/* Last-Second FOOTER */
+.collapsible {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  margin: 5px;
+  height: 80px;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+  display: flex;
+  margin-left: 130px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.collapsible .icon {
+  font-size: 50px;
+   
+  transition: transform 0.3s ease;
+}
+
+.collapsible.active .icon {
+  transform: rotate(45deg); /* Rotates "+" to become a "-" */
+}
+
+.active, .collapsible:hover {
+  background-color: #444;
+}
+
+.content {
+  /* padding: 0 18px; */
+  display: none;
+  width: 80%;
+  overflow: hidden;
+  background-color: #222;
+  color: white;
+  margin: 5px;
+  font-size: 25px;
+  margin-left: 130px;
+  transition: max-height 0.9s ease;
+}
+
+/* FOOETER CONTAINER */
+
+
+.footer-container{
+  height: auto;
+  width: 100%;
+  margin-top: 0%;
+  
+   
+}
+.main-foot{
+  margin-top: 100px;
+}
+.foot-p-1{
+  margin-left: 305px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: rgb(175, 173, 173);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foot-p-2{
+  display: flex;
+  width: 100%;
+  /* background-color: green; */
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+.para p {
+  /* background-color: aqua; */
+  margin: 30px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 100px;
+  cursor: pointer;
+  color: rgb(175, 173, 173);
+  
+  
+}
+.FOOT-BTN{
+   margin-left: 305px;
+   margin-bottom: 60px;
+  
+   color: white;
+   
+}
+.foot-p-3{
+  margin-left: 290px;
+  color: rgb(175, 173, 173);
+   
+   
+}
+.foot-para{
+  margin-left: 305px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(175, 173, 173);
+margin-top: 30px;
+}
+
+/* Responsive Design */
+ @media only screen and (max-width:768px)  {
+  .foot-container{
+    flex-direction: column;
+  }
+  .under-part{
+    margin-top: 0%;
+    display: flex;
+   
+ }
+  
+ .movie-box{
+  flex-direction: column;
+  height: 1500px;
+}
+ }
+ 
